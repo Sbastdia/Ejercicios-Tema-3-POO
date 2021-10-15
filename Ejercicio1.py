@@ -6,7 +6,7 @@ class Operacion:
         c=a+b;
         return c;
 
-    def restar(self,a,b):
+    def restar(a,b):
         c=a-b;
         return c;
 
@@ -24,6 +24,6 @@ op = Operacion();
 a=10;
 b=4;
 print ("Suma: "+str(a)+"+"+str(b)+"="+str(op.sumar(a,b)));
-print ("Resta: "+str(a)+"-"+str(b)+"="+str(op.restar(a,b)));
-print ("Multiplicación: "+str(a)+"*"+str(b)+"="+str(op.multiplicar(a,b)));
-print ("División: "+str(a)+"/"+str(b)+"="+str(op.dividir(a,b)));
+# print ("Resta: "+str(a)+"-"+str(b)+"="+str(op.restar(a,b)));
+# print ("Multiplicación: "+str(a)+"*"+str(b)+"="+str(op.multiplicar(a,b)));
+# print ("División: "+str(a)+"/"+str(b)+"="+str(op.dividir(a,b)));
